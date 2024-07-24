@@ -1,0 +1,113 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#cabecalho-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lavender;
+    background-color: rgb(90, 157, 168);
+    height: auto;
+    position: sticky;
+    top: 0;
+}
+#cabecalho-principal img {
+    margin-left: 10px;
+    height: 50px; 
+}
+#cabecalho-principal > nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+#cabecalho-principal a {
+    flex-shrink: 1;
+    cursor: pointer;
+    padding: 4px;
+    text-decoration: none;
+    color: rgb(17, 7, 7);
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+    margin: 2px;
+}
+
+#cabecalho-principal a:hover {
+    border-color:rgb(243, 237, 235);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+    overflow-x: auto;
+    background-color:rgba(238, 233, 230, 0.815);
+}
+
+#home {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.container_mapa {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#Introdução_da_disciplina {
+    text-align: justify;
+    font-family: Cambria;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#topicos_abordados {
+    width: 10%;
+}
+
+#referencias {
+    width: 30%;
+}
+
+#rodape_principal {
+    position: sticky;
+    bottom: 0;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(90, 157, 168);
+    padding: 3px;
+}
+#rodape_principal address {
+    font-family: Times;
+    font-size: large;
+    text-align: center;
+    padding: 3px;
+}
+
+#rodape_principal address a{
+    color: rgb(227, 234, 238);
+}
+#mapa1,
+#mapa2,
+#mapa3 {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+
+}

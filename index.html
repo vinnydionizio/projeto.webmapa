@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+  <title>Projeto Web Mapa</title>
+  <meta name="author" content="Vitória Zuza" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="Disciplina: Tópicos Especiais II" />
+  <link rel="shortcut icon"
+    href="https://www.prppg.ufpr.br/site/ppggeografia/wp-content/uploads/sites/71/2023/05/posgraduacao.png"
+    type="image/x-icon" />
+    <link rel="stylesheet" href="./meu-arquivo-css.css" />
+ <script src = "./conflitos.js"></script>
+ <script src = "./centroides.js"></script>
+ <script src = "./favelas.js"></script>
+  <script type="module" crossorigin src="./assets/index-BuVdzsGM.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DvnxIZ6K.css">
+</head>
+
+<body> 
+  <div id="map"></div>
+ 
+
+  <header id="cabecalho-principal">
+    <section>
+      <img class='inline' src='./assets/globo-C3S_5V9C.png' height="90px" alt='globo' />
+    </section>
+    <nav>
+      <a href=#home>Introdução</a>
+      <a href=#map1>Mapa Coroplético</a>
+      <a href=#map2>Mapa de símbolos Pontuais Proporcionais</a>
+      <a href=#map3>Mapa de Calor</a>
+    </nav>
+  </header>
+  <main>
+    <article id="home">
+
+      <section id="Introdução_da_disciplina">
+        <h2>Disciplina: Introdução a construção de mapas temáticos no ambiente web</h2>
+        
+      </section>
+      <section id="topicos_abordados">
+        <ul>
+          <li> Revisão sobre cartografia</li>
+          <li>Mapas
+            temáticos</li>
+          <li>Geoserviços</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+          <li>Biblioteca de
+            mapas</li>
+        </ul>
+      </section>
+
+      <aside id="referencias">
+        <h1>Referências</h1>
+        <ul>
+          <li>https://openlayers.org/</li>
+          <lis>https://developer.mozilla.org/pt-BR/</li>
+        </ul>
+      </aside>
+
+    </article>
+
+    <section id="map1" class="container_mapa">
+      <div id="mapa1"></div>
+      <section id="descricao_coropletico">
+        <h3>Descrição do mapa</h3>
+        <table>
+          <tr>
+            <td> Tipo de Representação </td>
+            <td>Método Coroplético</td>
+          </tr>
+          <tr>
+            <td>Método de Classificação</td>
+            <td>Jenks</td>
+          </tr>
+          <tr>
+           <td>Tema</td>
+           <td>Conflitos rurais</td>
+          </tr>
+        </table>
+
+      </section>
+      </section>
+
+      <section id="map2" class="container_mapa">
+        <div id="mapa2"></div>
+        <section>
+          <h3>Descrição do mapa</h3>
+          <table>
+            <tr>
+             <td>Método de Representação</td>
+             <td>Símbolos pontuais proporcionais</td>
+            </tr>
+            <tr>
+              <td>Método de Classificação</td>
+              <td>Método não classificado </td>
+            </tr>
+            <tr>
+              <td>Tema</td>
+              <td>Conflitos rurais</td>
+            </tr>
+          </table>
+      </section>
+    </section>
+
+        <section id="map3" class="container_mapa">
+          <div id="mapa3"></div>
+          <section>
+            <h3>Descrição do mapa</h3>
+            <table>
+              <tr>
+                <td>Método de Representação</td>
+                <td>Mapa de calor</td>
+               </tr>
+               <tr>
+                <td>Tema</td>
+                <td>Favelas</td>
+               </tr>
+               <tr>
+                 <td>Tamanho do raio</td>
+                 <td>3</td>
+               </tr>
+               <tr>
+                 <td>Valor de blur</td>
+                 <td>30</td>
+               </tr>
+            </table>
+        </section>
+      </section>
+
+  </main>
+  <footer id="rodape_principal">
+    <address>
+      Desenvolvido por Vinnicius 
+      Email:<a href="mailto:vinniciusdionizio@ufpr.br">vinniciusdionizio@ufpr.br </a>
+      </address>
+  </footer>
+</body>
+
+</html>
